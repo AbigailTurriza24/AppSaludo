@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,56 +8,10 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="185dp"
-        android:layout_height="150dp"
-        android:layout_alignEnd="@+id/editTextTextPersonName5"
-        android:layout_alignBottom="@+id/editTextTextPersonName5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="-29dp"
-        android:layout_marginBottom="-30dp"
-        android:text="Escriba su nombre:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="285dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="171dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="126dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView6"
-        android:layout_alignEnd="@+id/editTextTextPersonName5"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="-50dp"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_marginStart="78dp"
-        android:layout_marginBottom="19dp"
-        android:layout_toEndOf="@id/textView6"
-        android:background="@color/teal_200"
-        android:backgroundTint="#00BFA5"
-        android:foregroundTint="#19E53935"
-        android:text="Button"
-        android:textColor="@android:color/holo_green_light"
-        android:textColorLink="@color/purple_200"
-        app:iconTint="#11E53935" />
-
-</RelativeLayout>
+        android:id="@+id/textView7"
+        android:layout_width="80dp"
+        android:layout_height="19dp"
+        android:text="Hello World!"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="261dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
